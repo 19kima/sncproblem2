@@ -45,6 +45,9 @@ public class ATMTest {
 					System.out.println("$1 - " + eric.getOnes());
 				}
 				break;
+			case "a":
+				eric.addThousend();
+				break;
 			case "q":
 				quit = 0;
 				break;
