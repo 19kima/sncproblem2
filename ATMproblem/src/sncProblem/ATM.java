@@ -62,6 +62,10 @@ public class ATM {
 			System.out.println("Failure: insufficient funds");
 		}
 	}
+	
+	public void addThousend() {
+		hundred+=10;
+	}
 
 	public int getBalance() {
 		return (hundred * 100 + fifty * 50 + twenty * 20 + tens * 10 + fives * 5 + ones);
